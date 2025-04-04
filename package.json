@@ -5,10 +5,21 @@
   "main": "index.js",
   "devDependencies": {
     "@playwright/test": "^1.51.1",
+    "@types/node": "^22.14.0",
+    "@typescript-eslint/eslint-plugin": "^8.29.0",
+    "@typescript-eslint/parser": "^8.29.0",
+    "dotenv": "^16.4.7",
+    "eslint": "^9.23.0",
+    "eslint-config-prettier": "^10.1.1",
+    "eslint-plugin-prettier": "^5.2.6",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.14.0",
+    "prettier": "^3.5.3",
     "typescript": "^5.8.2"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "fmt": "prettier --write ."
   },
   "repository": {
     "type": "git",
