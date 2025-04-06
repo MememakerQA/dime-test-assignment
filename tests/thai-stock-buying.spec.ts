@@ -1,6 +1,5 @@
 import { expect, test } from '@playwright/test';
 import { ThaiStockBuyingRequest } from '../requests/thai-stock-buying';
-import { error } from 'console';
 import { errorCode, errorMessage } from '../test-datas/error-response';
 
 test.describe('Thai Stock Buying API Tests - Success Case', () => {
